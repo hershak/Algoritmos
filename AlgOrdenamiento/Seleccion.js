@@ -17,8 +17,8 @@ function Seleccion(lista) {
         }
       }
     }
-    console.log(min);
-    console.log(pos+'\n');
+    //console.log(min);
+    //console.log(pos+'\n');
     aux = lista[p];
     lista[p] = min; 
     p++;
