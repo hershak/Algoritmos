@@ -1,4 +1,4 @@
-# ALGORITMOS :checkered_flag::rocket:
+# [ALGORITMOS](https://es.wikipedia.org/wiki/Algoritmo) :rocket:
 
 ## [1. Algoritmos de Ordenamiento](https://es.wikipedia.org/wiki/Algoritmo_de_ordenamiento) :chart:
 
