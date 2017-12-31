@@ -1,4 +1,4 @@
-# ALGORITMOS
+# :pushpin: ALGORITMOS 
 
 ## [1. Algoritmos de Ordenamiento](https://es.wikipedia.org/wiki/Algoritmo_de_ordenamiento)
 
