@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/hershak/Algoritmos/issues"
   },
-  "homepage": "https://github.com/hershak/Algoritmos#readme"
+  "homepage": "https://github.com/hershak/Algoritmos#readme",
+  "devDependencies": {
+    "tape": "^4.8.0"
+  }
 }
