@@ -4,7 +4,7 @@ function Insercion(lista) {
   while (p < lista.length) {
     console.log('Paso while');
     var aux = 0;
-    var min_= 0;
+    var min_ = 0;
     for (var i = (p - 1); i < lista.length; i--) {
       console.log('Paso For');
       if (lista[i] > lista[p]) {
@@ -15,14 +15,13 @@ function Insercion(lista) {
         c++;
       }
     }
-    min=lista[p];
-    lista[p]=lista[p-c];
+    min = lista[p];
+    lista[p] = lista[p - c];
     p++;
-    c=0;
+    c = 0;
   }
   return lista;
 }
-
 var M = [8, 5, 2, 6, 4];
 console.log(M);
 M = Insercion(M);
