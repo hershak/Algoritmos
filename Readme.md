@@ -22,7 +22,7 @@
 * [Búsqueda binaria](#)
 * [Búsqueda Hash](#)
 
-## [2. Algoritmos de Encaminamiento](https://es.wikipedia.org/wiki/Algoritmo_de_b%C3%BAsqueda) :twisted_rightwards_arrows:
+## [2. Algoritmos de Encaminamiento](http://neo.lcc.uma.es/evirtual/cdd/tutorial/red/algruteo.html,https://es.wikipedia.org/wiki/Encaminamiento) :twisted_rightwards_arrows:
 
 * [Aislado](#)
 * [Camino Centralizado](#)
