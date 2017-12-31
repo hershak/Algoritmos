@@ -1,6 +1,6 @@
-# :pushpin: ALGORITMOS 
+# :pushpin: ALGORITMOS :checkered_flag:
 
-## [1. Algoritmos de Ordenamiento](https://es.wikipedia.org/wiki/Algoritmo_de_ordenamiento)
+## [1. Algoritmos de Ordenamiento](https://es.wikipedia.org/wiki/Algoritmo_de_ordenamiento) :chart:
 
 * [x] [Ordenamiento de burbuja](https://es.wikipedia.org/wiki/Ordenamiento_de_burbuja)
 
@@ -16,13 +16,13 @@
 * [ ] [Ordenamiento por montículos](https://es.wikipedia.org/wiki/Heapsort)
 * [x] [Ordenamiento Quicksort](https://codigofacilito.com/videos/ordenamiento_quicksort_rapido_en_java)
 
-## [2. Algoritmos de Búsqueda](https://es.wikipedia.org/wiki/Algoritmo_de_b%C3%BAsqueda)
+## [2. Algoritmos de Búsqueda](https://es.wikipedia.org/wiki/Algoritmo_de_b%C3%BAsqueda) :mag:
 
 * [Búsqueda secuencial](#)
 * [Búsqueda binaria](#)
 * [Búsqueda Hash](#)
 
-## [2. Algoritmos de Encaminamiento](https://es.wikipedia.org/wiki/Algoritmo_de_b%C3%BAsqueda)
+## [2. Algoritmos de Encaminamiento](https://es.wikipedia.org/wiki/Algoritmo_de_b%C3%BAsqueda) :twisted_rightwards_arrows:
 
 * [Aislado](#)
 * [Camino Centralizado](#)
