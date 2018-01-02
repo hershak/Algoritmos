@@ -1,7 +1,6 @@
 function Shell(lista) {
   var k = lista.length / 2;
   var aux = 0;
-  var aux2 = 0;
   while (k >= 1) {
     var contador = 1;
     while (contador > 0) {
@@ -9,8 +8,7 @@ function Shell(lista) {
       for (var i = 0; i < k; i++) {
         if (lista[i] > lista[i + k]) {
           aux = lista[i];
-          aux2 = lista[i + k];
-          lista[i] = aux2;
+          lista[i] = lista[i + k];
           lista[i + k] = aux;
           contador++;
         }

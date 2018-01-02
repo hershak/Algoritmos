@@ -1,24 +1,25 @@
 function Insercion(lista) {
   var p = 1;
-  var c = 0;
+  var min = 0;
   while (p < lista.length) {
     console.log('Paso while');
-    var aux = 0;
-    var min_ = 0;
-    for (var i = (p - 1); i < lista.length; i--) {
+    var aux = 0;    
+    var c = 0;
+    min = lista[p];
+    for (var i = (p - 1); i >= 0; i--) {
       console.log('Paso For');
       if (lista[i] > lista[p]) {
         console.log('Paso if');
         aux = lista[i];
-        lista[i] = lista[i + 1];
-        lista[i + 1] = aux;
+        //lista[i] = lista[i + 1];
+        lista[i + 1] = aux;        
         c++;
       }
     }
-    min = lista[p];
-    lista[p] = lista[p - c];
+    //min = lista[p];
+    //lista[p] = lista[p - c];
+    lista[p - c] = min;
     p++;
-    c = 0;
   }
   return lista;
 }
