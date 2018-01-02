@@ -9,7 +9,7 @@
 * [ ] [Ordenamiento por casilleros](https://es.wikipedia.org/wiki/Ordenamiento_por_casilleros)
 * [ ] [Ordenamiento por cuentas](https://es.wikipedia.org/wiki/Ordenamiento_por_cuentas)
 * [ ] [Ordenamiento por mezcla](https://es.wikipedia.org/wiki/Ordenamiento_por_mezcla)
-* [ ] [Ordenamiento con árbol binario](https://es.wikipedia.org/wiki/Ordenamiento_con_%C3%A1rbol_binario)
+* [ ] [Ordenamiento con árbol binario](https://es.slideshare.net/noeljimenez520/rboles-binarios-y-grafos)
 * [ ] [Ordenamiento Radix](https://es.wikipedia.org/wiki/Ordenamiento_Radix)
 * [ ] [Ordenamiento Shell](https://www.youtube.com/watch?v=MHW-QNd6IUE)
 * [ ] [Ordenamiento por Selección](https://es.wikipedia.org/wiki/Ordenamiento_por_selecci%C3%B3n)
