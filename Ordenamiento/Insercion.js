@@ -1,37 +1,27 @@
-function Insercion(lista) {
-  var p = 1;
-  var min = 0;
-  while (p < lista.length) {
-    console.log('Paso while');
-    var aux = 0;    
-    var c = 0;
-    min = lista[p];
-    for (var i = (p - 1); i >= 0; i--) {
-      console.log('Paso For');
-      if (lista[i] > lista[p]) {
-        console.log('Paso if');
-        aux = lista[i];
-        //lista[i] = lista[i + 1];
-        lista[i + 1] = aux;        
-        c++;
-      }
+listaodule.exports.Insercion = function(lista) {
+    /*
+      var i = 1;
+      while (i < lista.length) {
+          var j = i;
+          while (j > 0 && lista[j - 1] > lista[j]) {
+              var aux = lista[j];
+              lista[j] = lista[j - 1]
+              lista[j - 1] = aux;
+              j--;
+          }
+          i++;
+      }*/
+    var i = 1;
+    while (i < lista.length) {
+        var x = lista[i];
+        var j = i - 1;
+        while (j >= 0 && lista[j] > x) {
+            lista[j + 1] = lista[j];
+            j--;
+        }
+        lista[j + 1] = x;
+        i++;
     }
-    //min = lista[p];
-    //lista[p] = lista[p - c];
-    lista[p - c] = min;
-    p++;
-  }
-  return lista;
+
+    return lista;
 }
-var M = [8, 5, 2, 6, 4];
-console.log(M);
-M = Insercion(M);
-console.log(M);
-M = [100, 6, 5, 5, 3, 2, 8, 5, 6, 7, 4, 2, 9, 2, 6, 4, 41];
-console.log(M);
-M = Insercion(M);
-console.log(M);
-M = [5, 65, 1, 0, 02, 52, 64, 21, 20, 2.8];
-console.log(M);
-M = Insercion(M);
-console.log(M);

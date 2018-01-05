@@ -1,4 +1,4 @@
-function Burbuja(lista) {
+module.exports.Burbuja = function(lista) {
     var contador = 1;
 
     while (contador > 0) {
