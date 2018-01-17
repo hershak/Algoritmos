@@ -1,25 +1,25 @@
 {
-  "name": "algoritmos",
-  "version": "1.0.0",
-  "description": "algoritmos",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hershak/Algoritmos.git"
-  },
-  "keywords": [
-    "algoritmos"
-  ],
-  "author": "@hershak",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hershak/Algoritmos/issues"
-  },
-  "homepage": "https://github.com/hershak/Algoritmos#readme",
-  "devDependencies": {
-    "tape": "^4.8.0"
-  }
+    "name": "algoritmos",
+    "version": "1.0.0",
+    "description": "algoritmos",
+    "main": "index.js",
+    "scripts": {
+        "test": "NODE_ENV=test tape test/*.test.js test/**/*.test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hershak/Algoritmos.git"
+    },
+    "keywords": [
+        "algoritmos"
+    ],
+    "author": "@hershak",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/hershak/Algoritmos/issues"
+    },
+    "homepage": "https://github.com/hershak/Algoritmos#readme",
+    "devDependencies": {
+        "tape": "^4.8.0"
+    }
 }
