@@ -32,7 +32,13 @@ function ArbolNavidad(){
         for (var b = 0; b < 11; b++) { //once uniddades de espacio para dibujar el tallo.
           ref += ' ';
         }
-        ref += '***** \n'; //La longitud del tallo, un total de 5 asteriscos.
+        ref += '00000 \n'; //La longitud del tallo, un total de 5 asteriscos.
+      }
+      for (var b = 0; b < 9; b++) { // 9 espacios en blanco antes de la raíz.
+        ref += ' ';
+      }
+      for (var r = 0; r < 9; r++) { //la raiz dibujadas.
+        ref += '#';
       }
     return ref;
 }
