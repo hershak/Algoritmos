@@ -1,10 +1,10 @@
 function Arbol() {
     var ref = '\n';
     for (var i = 0; i < 10; i++) { //Es la cabeza del árbol
-        for (var c = (10 - i); c > 1; c--) { //Espacios en blanco para que pueda tener la forma de un triángulo isosceles
+        for (var j = (10 - i); j > 1; j--) { //Espacios en blanco para que pueda tener la forma de un triángulo isosceles
             ref += ' ';
         }
-        for (var j = 1; j <= ((2 * i) + 1); j++) { // dibujando el triángulo isosceles
+        for (var k = 1; k <= ((2 * i) + 1); k++) { // dibujando el triángulo isosceles
             ref += '*';
         }
         ref += '\n';
