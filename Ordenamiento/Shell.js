@@ -1,32 +1,38 @@
-function Shell(lista) {
-  var k = lista.length / 2;
-  var aux = 0;
-  while (k >= 1) {
-    var contador = 1;
-    while (contador > 0) {
-      contador = 0;
-      for (var i = 0; i < k; i++) {
-        if (lista[i] > lista[i + k]) {
-          aux = lista[i];
-          lista[i] = lista[i + k];
-          lista[i + k] = aux;
-          contador++;
+//http://jorgep.blogspot.pe/2010/09/shell-sort.html
+module.exports.Shell = function(lista) {
+        for (var salto = lista.length / 2; salto != 0; salto /= 2) {
+            var cambios = true;
+            while (cambios) {
+                cambios = false;
+                for (var i = salto; i < lista.length; i++) {
+                    if (lista[i - salto] > lista[i]) {
+                        var aux = lista[i];
+                        lista[i] = lista[i - salto];
+                        lista[i - salto] = aux;
+                        cambios = true;
+                    }
+                }
+            }
         }
-      }
+        return lista;
     }
-    k /= 2;
-  }
-  return lista;
-}
-var M = [8, 5, 2, 6, 4];
-console.log(M);
-M = Shell(M);
-console.log(M);
-M = [100, 6, 5, 5, 3, 2, 8, 5, 6, 7, 4, 2, 9, 2, 6, 4, 41];
-console.log(M);
-M = Shell(M);
-console.log(M);
-M = [5, 65, 1, 0, 02, 52, 64, 21, 20, 2.8];
-console.log(M);
-M = Shell(M);
-console.log(M);
+    /*
+    public static void ordenacionShell(int[] v) {
+            final int N = v.length;
+            int incremento = N;
+            do {
+                incremento = incremento / 2;
+                for (int k = 0; k < incremento; k++) {
+                    for (int i = incremento + k; i < N; i += incremento) {
+                        int j = i;
+                        while (j - incremento >= 0 && v[j] < v[j - incremento]) {
+                            int tmp = v[j];
+                            v[j] = v[j - incremento];
+                            v[j - incremento] = tmp;
+                            j -= incremento;
+                        }
+                    }
+                }
+            } while (incremento > 1);
+        }
+    */
